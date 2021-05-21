@@ -10,16 +10,15 @@ export const styles = StyleSheet.create({
         width: 80,
         borderRadius: 100,
         justifyContent: 'center',
-        marginHorizontal: 10,
+        marginHorizontal: 7,
     },
     buttonText: {
         textAlign: 'center',
-        padding: 10,
         fontSize: 30,
     },
     calculatorContainer: {
         flex: 1,
-        paddingHorizontal: 10,
+        paddingHorizontal: 35,
         justifyContent: 'flex-end',
     },
     previousResult: {
@@ -31,6 +30,7 @@ export const styles = StyleSheet.create({
         color: 'white',
         fontSize: 60,
         textAlign: 'right',
+        marginBottom: 5,
     },
     row: {
         flexDirection: 'row',
